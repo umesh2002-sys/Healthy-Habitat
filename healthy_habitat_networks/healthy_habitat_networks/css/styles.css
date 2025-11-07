@@ -1,0 +1,120 @@
+body.homepage-bg {
+    margin: 0;
+    padding: 0;
+    background: url('../images/bg.png') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+}
+
+.navbar {
+    background-color: rgb(255 255 255 / 12%);
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+body.login-bg {
+    background: url('../images/log.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 350px;
+}
+body.register-bg {
+    background: url('../images/reg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+body.business-bg {
+    background: url('../images/business.png') no-repeat center center fixed;
+    background-size: cover;
+}
+body.businessbg {
+    background: url('../images/background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+.bd_card{
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.form_text_bg{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.text{
+    color: white;
+}
+body.resident_bg {
+    background: url('../images/br.png') no-repeat center center fixed;
+    background-size: cover;
+}
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #2e7d32;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+        .custom-card {
+            border: none;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 220px; /* Similar to your current width */
+            margin: 0 auto; /* Center the card */
+            text-align: center; /* Center content */
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        
+        .custom-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+        
+        .custom-card img {
+            width: 100%;
+            height: 100px;
+            /* object-fit: cover; */
+            border-top-left-radius: 16px;
+            border-top-right-radius: 16px;
+        }
+        
+        .custom-card .card-body {
+            padding: 15px;
+            background-color: darkseagreen;
+        }
+        
+        .custom-card .card-title {
+            font-weight: bold;
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+        
+        .custom-card .card-text {
+            font-size: 0.85rem;
+            color: #555;
+        }
+        
+        .custom-card a.btn {
+            font-size: 0.75rem;
+            padding: 4px 12px;
+        }
+        
